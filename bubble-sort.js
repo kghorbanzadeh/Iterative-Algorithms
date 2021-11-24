@@ -4,7 +4,7 @@ function bubbleSort(array) {
 	//inside any loops (including nested loops)
 	/*
     ** Compare the first two elements and swap if necessary.
-    ** Then compart the second and third elements and swap if
+    ** Then compare the second and third elements and swap if
     ** necessary. Continue until you've checked and swapped (if needed)
     ** the last and second last elements.
     
