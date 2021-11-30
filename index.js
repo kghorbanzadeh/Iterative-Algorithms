@@ -40,13 +40,13 @@ console.log(`Searching for ${searchTestTerm}`);
 console.log(`Result should be ${searchTestAnswer}\n`);
 
 console.log("Linear Search:");
-let linearSearchResults = linearSearch(...searchTestArray, searchTestTerm);
+let linearSearchResults = linearSearch([...searchTestArray], searchTestTerm);
 console.log(
 	`Result: ${linearSearchResults.index} Reads: ${linearSearchResults.reads}\n`
 );
 
 console.log("Binary Search:");
-let binarySearchResults = binarySearch(...searchTestArray, searchTestTerm);
+let binarySearchResults = binarySearch([...searchTestArray], searchTestTerm);
 console.log(
 	`Result: ${binarySearchResults.index} Reads: ${binarySearchResults.reads}\n`
 );
