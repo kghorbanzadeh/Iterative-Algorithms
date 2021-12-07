@@ -7,8 +7,14 @@ function linearSearch(array, searchTerm) {
 	/*
 	 ** Check each element from start to finish
 	 */
-
-	return { index: index, reads: reads };
+	 while(index < array.length){
+		reads++
+		if(array[index] === searchTerm){
+			return { index: index, reads: reads };
+		}
+		index++
+	}
+	return false
 }
 
 module.exports = linearSearch;
